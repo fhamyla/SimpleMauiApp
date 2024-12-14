@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SimpleMauiApp.WelcomePage"
+             BackgroundColor="White">
+
+    <VerticalStackLayout Spacing="20" Padding="30" HorizontalOptions="Center" VerticalOptions="Center">
+
+        <!-- Welcome Text -->
+        <Label x:Name="WelcomeLabel"
+               FontSize="36"
+               HorizontalOptions="Center"
+               TextColor="Black"
+               Text="Hi there!" />
+
+        <Label Text="Welcome Aboard"
+               FontSize="24"
+               TextColor="Blue"
+               HorizontalOptions="Center" />
+
+        <!-- Description -->
+        <Label Text="Help us prepare a tailored curriculum for you by answering a few questions"
+               FontSize="18"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center" />
+
+        <!-- Alright Button -->
+        <Button Text="Alright"
+                Clicked="OnAlrightClicked"
+                BackgroundColor="#4A90E2"
+                TextColor="White"
+                CornerRadius="20"
+                WidthRequest="200"
+                HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>
