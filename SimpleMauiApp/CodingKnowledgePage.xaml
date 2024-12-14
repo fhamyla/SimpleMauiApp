@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SimpleMauiApp.CodingKnowledgePage">
+    <VerticalStackLayout Spacing="20" Padding="30" HorizontalOptions="Center" VerticalOptions="Center">
+
+        <!-- Progress bar -->
+        <ProgressBar Progress="0.66" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+
+        <!-- Question prompt -->
+        <Label Text="How much do you know about Operating Systems?"
+       FontSize="24"
+       HorizontalOptions="Center"
+       TextColor="Black" />
+
+        <Label Text="Tap to select" FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+
+        <!-- Radio button options with x:Name attributes -->
+        <RadioButton GroupName="CodingKnowledge" Content="I used them and quite confused how they work" x:Name="NoneOption" />
+        <RadioButton GroupName="CodingKnowledge" Content="I already know but I want to know other features how it works" x:Name="BasicOption" />
+        <RadioButton GroupName="CodingKnowledge" Content="Not much but I'm interested how to use an OS such as like Windows and IOS" x:Name="ExperiencedOption" />
+
+        <!-- Continue Button -->
+        <Button Text="Continue"
+        BackgroundColor="#4A90E2"
+        TextColor="White"
+        CornerRadius="30"
+        WidthRequest="200"
+        HorizontalOptions="Center"
+        Clicked="OnContinueClicked" />
+    </VerticalStackLayout>
+</ContentPage>

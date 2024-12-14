@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SimpleMauiApp.TimeLearning">
+    <VerticalStackLayout Spacing="20" Padding="30" HorizontalOptions="Center" VerticalOptions="Center">
+
+        <!-- Progress bar -->
+        <ProgressBar Progress="1" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+
+        <!-- Question prompt -->
+        <Label Text="How much time do you wish to invest in learning?"
+               FontSize="24"
+               HorizontalOptions="Center"
+               TextColor="Black" />
+
+        <Label Text="Tap to select" FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+
+        <!-- Radio button options with x:Name attributes -->
+        <RadioButton GroupName="TimeLearning" Content="5-10 minutes a day" x:Name="LaidBackOption" />
+        <RadioButton GroupName="TimeLearning" Content="10-15 minutes everyday" x:Name="ConsistentOption" />
+        <RadioButton GroupName="TimeLearning" Content="20 minutes everyday" x:Name="SincereOption" />
+
+        <!-- Continue Button -->
+        <Button Text="Continue"
+                BackgroundColor="#4A90E2"
+                TextColor="White"
+                CornerRadius="30"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                Clicked="OnContinueClicked" />
+                
+    </VerticalStackLayout>
+</ContentPage>
