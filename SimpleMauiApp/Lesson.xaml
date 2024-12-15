@@ -2,27 +2,164 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SimpleMauiApp.Lesson">
-    <VerticalStackLayout>
-        <Label 
-        Text="Welcome to the World of Operating System!" 
-        FontSize="24"
-        HorizontalOptions="Center" 
-        VerticalOptions="Start"
-        Margin="0,10,0,10" />
-        <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
-        <VerticalStackLayout HorizontalOptions="Center">
-            <Image Source="dotnet_bot.png" HeightRequest="100" WidthRequest="100"/>
-            <Label Text="1. Getting Started" HorizontalOptions="Center" FontAttributes="Bold" />
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="20"
+        Spacing="30"
+        BackgroundColor="White">
+
+            <!-- Title -->
+            <Label 
+            Text="Hello, Welcome to the World of Operating System!" 
+            FontSize="24" 
+            FontAttributes="Bold"
+            HorizontalOptions="Center" 
+            VerticalOptions="Start"
+            TextColor="Black"
+            Margin="0,10,0,10" />
+
+            <!-- First Section -->
+            <Frame
+            CornerRadius="10"
+            BorderColor="Gray"
+            Padding="10"
+            HasShadow="True"
+            HorizontalOptions="Center"
+            WidthRequest="200">
+                <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
+                <VerticalStackLayout HorizontalOptions="Center">
+                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Getting Started" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Line between sections -->
+            <BoxView HeightRequest="50" WidthRequest="2" Color="Gray" HorizontalOptions="Center" />
+
+            <!-- Second Section -->
+            <Frame
+            CornerRadius="10"
+            BorderColor="Gray"
+            Padding="10"
+            HasShadow="True"
+            HorizontalOptions="Center"
+            WidthRequest="200">
+                <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
+                <VerticalStackLayout HorizontalOptions="Center">
+                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Replace" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Line between sections -->
+            <BoxView HeightRequest="50" WidthRequest="2" Color="Gray" HorizontalOptions="Center" />
+
+            <!-- Third Section -->
+            <Frame
+            CornerRadius="10"
+            BorderColor="Gray"
+            Padding="10"
+            HasShadow="True"
+            HorizontalOptions="Center"
+            WidthRequest="200">
+                <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
+                <VerticalStackLayout HorizontalOptions="Center">
+                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Replace" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Line between sections -->
+            <BoxView HeightRequest="50" WidthRequest="2" Color="Gray" HorizontalOptions="Center" />
+
+            <!-- 4 Section -->
+            <Frame
+            CornerRadius="10"
+            BorderColor="Gray"
+            Padding="10"
+            HasShadow="True"  
+            HorizontalOptions="Center"
+            WidthRequest="200">
+
+                <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
+                <VerticalStackLayout HorizontalOptions="Center">
+                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Replace" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Line between sections -->
+            <BoxView HeightRequest="50" WidthRequest="2" Color="Gray" HorizontalOptions="Center" />
+
+            <!-- 5 Section -->
+            <Frame
+            CornerRadius="10"
+            BorderColor="Gray"
+            Padding="10"
+            HasShadow="True"
+            HorizontalOptions="Center"
+            WidthRequest="200">
+                <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
+                <VerticalStackLayout HorizontalOptions="Center">
+                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Replace" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Line between sections -->
+            <BoxView HeightRequest="50" WidthRequest="2" Color="Gray" HorizontalOptions="Center" />
+
+            <!-- 6 Section -->
+            <Frame
+            CornerRadius="10"
+            BorderColor="Gray"
+            Padding="10"
+            HasShadow="True"
+            HorizontalOptions="Center"
+            WidthRequest="200">
+                <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
+                <VerticalStackLayout HorizontalOptions="Center">
+                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Replace" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Line between sections -->
+            <BoxView HeightRequest="50" WidthRequest="2" Color="Gray" HorizontalOptions="Center" />
+
+            <!-- 7 Section -->
+            <Frame
+            CornerRadius="10"
+            BorderColor="Gray"
+            Padding="10"
+            HasShadow="True"
+            HorizontalOptions="Center"
+            WidthRequest="200">
+                <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
+                <VerticalStackLayout HorizontalOptions="Center">
+                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Replace" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Line between sections -->
+            <BoxView HeightRequest="50" WidthRequest="2" Color="Gray" HorizontalOptions="Center" />
+
+            <!-- 8 Section -->
+            <Frame
+            CornerRadius="10"
+            BorderColor="Gray"
+            Padding="10"
+            HasShadow="True"
+            HorizontalOptions="Center"
+            WidthRequest="200">
+                <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
+                <VerticalStackLayout HorizontalOptions="Center">
+                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Replace" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                </VerticalStackLayout>
+            </Frame>
+
         </VerticalStackLayout>
-        <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
-        <VerticalStackLayout HorizontalOptions="Center">
-            <Image Source="dotnet_bot.png" HeightRequest="100" WidthRequest="100" />
-            <Label Text="2. Hands-on Python" HorizontalOptions="Center" FontAttributes="Bold" />
-        </VerticalStackLayout>
-        <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
-        <VerticalStackLayout HorizontalOptions="Center">
-            <Image Source="dotnet_bot.png" HeightRequest="100" WidthRequest="100" />
-            <Label Text="3. Working with Python" HorizontalOptions="Center" FontAttributes="Bold" />
-        </VerticalStackLayout>
-    </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
