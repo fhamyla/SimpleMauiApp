@@ -13,11 +13,13 @@ namespace SimpleMauiApp
 
             if (BasicOption.IsChecked)
             {
-                showFirstSection = false; // Hide FirstSection
+                showFirstSection = false;
+                Console.WriteLine("BasicOption selected. FirstSection should be hidden.");
             }
             else if (ExperiencedOption.IsChecked || MasterOption.IsChecked)
             {
-                showFirstSection = true; // Show FirstSection
+                showFirstSection = true;
+                Console.WriteLine("ExperiencedOption or MasterOption selected. FirstSection should be visible.");
             }
 
             Console.WriteLine($"Navigating to Lesson with showFirstSection: {showFirstSection}");
