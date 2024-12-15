@@ -9,20 +9,21 @@ namespace SimpleMauiApp
 
         private async void ContinueClicked(object sender, EventArgs e)
         {
-            bool showFirstSection = false;
+            bool showFirstSection = false; // Default is false (hidden)
 
             if (BasicOption.IsChecked)
             {
-                showFirstSection = false;
-                Console.WriteLine("BasicOption selected. FirstSection should be hidden.");
+                showFirstSection = true; // Make it visible for BasicOption
+                Console.WriteLine("BasicOption selected. FirstSection should be visible.");
             }
             else if (ExperiencedOption.IsChecked || MasterOption.IsChecked)
             {
-                showFirstSection = true;
-                Console.WriteLine("ExperiencedOption or MasterOption selected. FirstSection should be visible.");
+                showFirstSection = false; // Hide it for other options
+                Console.WriteLine("ExperiencedOption or MasterOption selected. FirstSection should be hidden.");
             }
 
-            Console.WriteLine($"Navigating to Lesson with showFirstSection: {showFirstSection}");
+            // Navigate to Lesson with the determined visibility
+            Console.WriteLine($"Navigating to Lesson with showFirstSection = {showFirstSection}");
             await Navigation.PushAsync(new Lesson(showFirstSection));
         }
 

@@ -38,9 +38,7 @@ namespace SimpleMauiApp
                 // Schedule notification using the Dispatcher
                 ScheduleNotification(notificationTime);
 
-                // Navigate to the Lesson page with FirstSection visible or hidden based on logic
-                bool showFirstSection = false; // Set this to true or false based on your requirements
-                await Navigation.PushAsync(new Lesson(showFirstSection));
+                await Navigation.PushAsync(new Lesson());
             }
             else
             {

@@ -21,7 +21,7 @@
             <!-- First Section -->
             <Frame
             x:Name="FirstSection"
-            IsVisible="{Binding IsFirstSectionVisible}"
+            IsVisible="True"
             CornerRadius="10"
             BorderColor="Gray"
             Padding="10"
