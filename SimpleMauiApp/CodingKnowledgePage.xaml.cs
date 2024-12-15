@@ -1,36 +1,57 @@
-namespace SimpleMauiApp;
-
-public partial class CodingKnowledgePage : ContentPage
+namespace SimpleMauiApp
 {
-	public CodingKnowledgePage()
-	{
-		InitializeComponent();
-	}
-    private async void OnContinueClicked(object sender, EventArgs e)
+    public partial class CodingKnowledgePage : ContentPage
     {
-        string knowledgeLevel = string.Empty;
-
-        if (NoneOption.IsChecked)
+        public CodingKnowledgePage()
         {
-            knowledgeLevel = "I used them and quite confused how they work";
-        }
-        else if (BasicOption.IsChecked)
-        {
-            knowledgeLevel = "I already know but I want to know other features how it works";
-        }
-        else if (ExperiencedOption.IsChecked)
-        {
-            knowledgeLevel = "Not much but I'm interested how to use an OS such as like Windows and IOS";
+            InitializeComponent();
         }
 
-        if (!string.IsNullOrEmpty(knowledgeLevel))
+        private async void ContinueClicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Coding Knowledge", $"You selected: {knowledgeLevel}", "OK");
-            await Navigation.PushAsync(new TimeLearning());
+            bool showFirstSection = false;
+
+            if (BasicOption.IsChecked)
+            {
+                showFirstSection = false; // Hide FirstSection
+            }
+            else if (ExperiencedOption.IsChecked || MasterOption.IsChecked)
+            {
+                showFirstSection = true; // Show FirstSection
+            }
+
+            Console.WriteLine($"Navigating to Lesson with showFirstSection: {showFirstSection}");
+            await Navigation.PushAsync(new Lesson(showFirstSection));
         }
-        else
+
+        private async void OnContinueClicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Error", "Please select an option to continue.", "OK");
+            string knowledgeLevel = string.Empty;
+
+            if (BasicOption.IsChecked)
+            {
+                knowledgeLevel = "I used them and quite confused how they work";
+            }
+            else if (ExperiencedOption.IsChecked)
+            {
+                knowledgeLevel = "I already know but I want to know other features how it works";
+            }
+            else if (MasterOption.IsChecked)
+            {
+                knowledgeLevel = "Not much but I'm interested how to use an OS such as like Windows and IOS";
+            }
+
+            if (!string.IsNullOrEmpty(knowledgeLevel))
+            {
+                await DisplayAlert("Coding Knowledge", $"You selected: {knowledgeLevel}", "OK");
+
+                // Pass the selected option to TimeLearning page
+                await Navigation.PushAsync(new TimeLearning());
+            }
+            else
+            {
+                await DisplayAlert("Error", "Please select an option to continue.", "OK");
+            }
         }
     }
 }

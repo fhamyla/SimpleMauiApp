@@ -16,9 +16,9 @@
         <Label Text="Tap to select" FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
 
         <!-- Radio button options with x:Name attributes -->
-        <RadioButton GroupName="CodingKnowledge" Content="I used them and quite confused how they work" x:Name="NoneOption" />
-        <RadioButton GroupName="CodingKnowledge" Content="I already know but I want to know other features how it works" x:Name="BasicOption" />
-        <RadioButton GroupName="CodingKnowledge" Content="Not much but I'm interested how to use an OS such as like Windows and IOS" x:Name="ExperiencedOption" />
+        <RadioButton GroupName="CodingKnowledge" Content="I used them and quite confused how they work" x:Name="BasicOption" />
+        <RadioButton GroupName="CodingKnowledge" Content="I already know but I want to know other features how it works" x:Name="ExperiencedOption" />
+        <RadioButton GroupName="CodingKnowledge" Content="Not much but I'm interested how to use an OS such as like Windows and IOS" x:Name="MasterOption" />
 
         <!-- Continue Button -->
         <Button Text="Continue"

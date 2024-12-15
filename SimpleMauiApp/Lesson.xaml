@@ -20,6 +20,8 @@
 
             <!-- First Section -->
             <Frame
+            x:Name="FirstSection"
+            IsVisible="True"
             CornerRadius="10"
             BorderColor="Gray"
             Padding="10"
