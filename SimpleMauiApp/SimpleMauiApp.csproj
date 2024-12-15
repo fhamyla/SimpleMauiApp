@@ -66,6 +66,9 @@
 	  <MauiXaml Update="CodingKnowledgePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Lesson.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="MotivationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

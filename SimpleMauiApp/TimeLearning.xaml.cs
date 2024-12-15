@@ -26,6 +26,7 @@ public partial class TimeLearning : ContentPage
         if (!string.IsNullOrEmpty(timeLevel))
         {
             await DisplayAlert("Time Learning", $"You selected: {timeLevel}", "OK");
+            await Navigation.PushAsync(new Lesson());
         }
         else
         {
