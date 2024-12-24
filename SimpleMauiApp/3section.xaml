@@ -7,5 +7,14 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Button
+            Text="Next"
+            BackgroundColor="Blue"
+            TextColor="White"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            VerticalOptions="End"
+            Margin="10"
+            Clicked="NextClicked" />
     </VerticalStackLayout>
 </ContentPage>
