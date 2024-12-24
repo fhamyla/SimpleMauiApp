@@ -49,10 +49,11 @@ namespace SimpleMauiApp
 
                 if (remainingTime <= TimeSpan.Zero)
                 {
+                    TimerLabel.Text = "Time Remaining: 00:00";
                     EndTest();
                     return false;
                 }
-
+                TimerLabel.Text = $"Time Remaining: {remainingTime:mm\\:ss}";
                 return true;
             });
         }
@@ -104,7 +105,6 @@ namespace SimpleMauiApp
                 >= 19 or 20 => "Excellent!"
             };
             await DisplayAlert("Test Completed", $"Your score is: {_score}/20\nResult: {resultMessage}", "OK");
-
             await Navigation.PopAsync();
         }
     }
