@@ -26,6 +26,9 @@
             HasShadow="True"
             HorizontalOptions="Center"
             WidthRequest="200">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="GetTapped" />
+                </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
@@ -44,6 +47,9 @@
             HasShadow="True"
             HorizontalOptions="Center"
             WidthRequest="200">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="SecTapped" />
+                </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
@@ -62,6 +68,9 @@
             HasShadow="True"
             HorizontalOptions="Center"
             WidthRequest="200">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ThTapped" />
+                </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
@@ -80,7 +89,9 @@
             HasShadow="True"  
             HorizontalOptions="Center"
             WidthRequest="200">
-
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="FTapped" />
+                </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
@@ -99,6 +110,9 @@
             HasShadow="True"
             HorizontalOptions="Center"
             WidthRequest="200">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="FfTapped" />
+                </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
@@ -117,6 +131,9 @@
             HasShadow="True"
             HorizontalOptions="Center"
             WidthRequest="200">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="STapped" />
+                </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
@@ -135,6 +152,9 @@
             HasShadow="True"
             HorizontalOptions="Center"
             WidthRequest="200">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="SevTapped" />
+                </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
@@ -153,6 +173,9 @@
             HasShadow="True"
             HorizontalOptions="Center"
             WidthRequest="200">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ETapped" />
+                </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
