@@ -4,9 +4,14 @@
              x:Class="SimpleMauiApp.Test">
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
+            <Label x:Name="TimerLabel" 
+                   Text="Time Remaining: 15:00" 
+                   FontSize="18" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   TextColor="Red" />
             <Label Text="Multiple-Choice Test" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
-            <Label Text="You have 15 minutes" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
-            
+
             <!-- Question 1 -->
             <StackLayout x:Name="q1">
                 <Label Text="1. Replace this" FontAttributes="Bold" />
