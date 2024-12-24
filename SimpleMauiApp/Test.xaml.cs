@@ -50,10 +50,10 @@ namespace SimpleMauiApp
                 if (remainingTime <= TimeSpan.Zero)
                 {
                     EndTest();
-                    return false; // Stop the timer
+                    return false;
                 }
 
-                return true; // Continue the timer
+                return true;
             });
         }
 
@@ -77,10 +77,18 @@ namespace SimpleMauiApp
                 string groupName = entry.Key;
                 string correctAnswer = entry.Value;
 
-                RadioButton selectedOption = this.FindByName<RadioButton>($"{groupName}_selected");
-                if (selectedOption?.Content?.ToString()?.StartsWith(correctAnswer) == true)
+                var radioButtons = this.FindByName<StackLayout>(groupName)?.Children.OfType<RadioButton>();
+
+                if (radioButtons != null)
                 {
-                    _score++;
+                    foreach (var radioButton in radioButtons)
+                    {
+                        if (radioButton.IsChecked && radioButton.Content?.ToString()?.StartsWith(correctAnswer) == true)
+                        {
+                            _score++;
+                            break;
+                        }
+                    }
                 }
             }
         }

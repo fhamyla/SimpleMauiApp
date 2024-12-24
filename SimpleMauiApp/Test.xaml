@@ -7,144 +7,194 @@
             <Label Text="Multiple-Choice Test" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
 
             <!-- Question 1 -->
-            <Label Text="1. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q1" Content="A. Replace" />
-            <RadioButton GroupName="q1" Content="B. Replace with the correct answer" />
-            <RadioButton GroupName="q1" Content="C. Replace" />
-            <RadioButton GroupName="q1" Content="D. Replace" />
+            <StackLayout x:Name="q1">
+                <Label Text="1. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace with the correct answer" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 2 -->
-            <Label Text="2. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q2" Content="A. Replace with the correct answer"  />
-            <RadioButton GroupName="q2" Content="B. Replace" />
-            <RadioButton GroupName="q2" Content="C. Replace" />
-            <RadioButton GroupName="q2" Content="D. Replace" />
+            <StackLayout x:Name="q2">
+                <Label Text="2. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace with the correct answer" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 3 -->
-            <Label Text="3. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q3" Content="A. Replace" />
-            <RadioButton GroupName="q3" Content="B. Replace" />
-            <RadioButton GroupName="q3" Content="C. Replace with the correct answer" />
-            <RadioButton GroupName="q3" Content="D. Replace" />
+            <StackLayout x:Name="q3">
+                <Label Text="3. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace with the correct answer" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 4 -->
-            <Label Text="4. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q4" Content="A. Replace" />
-            <RadioButton GroupName="q4" Content="B. Replace" />
-            <RadioButton GroupName="q4" Content="C. Replace" />
-            <RadioButton GroupName="q4" Content="D. Replace with the correct answer" />
-            
+            <StackLayout x:Name="q4">
+                <Label Text="4. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace with the correct answer" />
+            </StackLayout>
+
             <!-- Question 5 -->
-            <Label Text="5. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q5" Content="A. Replace" />
-            <RadioButton GroupName="q5" Content="B. Replace with the correct answer" />
-            <RadioButton GroupName="q5" Content="C. Replace" />
-            <RadioButton GroupName="q5" Content="D. Replace" />
+            <StackLayout x:Name="q5">
+                <Label Text="5. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace with the correct answer" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 6 -->
-            <Label Text="6. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q6" Content="A. Replace" />
-            <RadioButton GroupName="q6" Content="B. Replace with the correct answer" />
-            <RadioButton GroupName="q6" Content="C. Replace" />
-            <RadioButton GroupName="q6" Content="D. Replace" />
+            <StackLayout x:Name="q6">
+                <Label Text="6. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace with the correct answer" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 7 -->
-            <Label Text="7. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q7" Content="A. Replace" />
-            <RadioButton GroupName="q7" Content="B. Replace with the correct answer" />
-            <RadioButton GroupName="q7" Content="C. Replace" />
-            <RadioButton GroupName="q7" Content="D. Replace" />
+            <StackLayout x:Name="q7">
+                <Label Text="7. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace with the correct answer" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 8 -->
-            <Label Text="8. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q8" Content="A. Replace with the correct answer" />
-            <RadioButton GroupName="q8" Content="B. Replace" />
-            <RadioButton GroupName="q8" Content="C. Replace" />
-            <RadioButton GroupName="q8" Content="D. Replace" />
+            <StackLayout x:Name="q8">
+                <Label Text="8. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace with the correct answer" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 9 -->
-            <Label Text="9. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q9" Content="A. Replace" />
-            <RadioButton GroupName="q9" Content="B. Replace" />
-            <RadioButton GroupName="q9" Content="C. Replace" />
-            <RadioButton GroupName="q9" Content="D. Replace with the correct answer" />
+            <StackLayout x:Name="q9">
+                <Label Text="9. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace with the correct answer" />
+            </StackLayout>
 
             <!-- Question 10 -->
-            <Label Text="10. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q10" Content="A. Replace" />
-            <RadioButton GroupName="q10" Content="B. Replace" />
-            <RadioButton GroupName="q10" Content="C. Replace" />
-            <RadioButton GroupName="q10" Content="D. Replace with the correct answer" />
+            <StackLayout x:Name="q10">
+                <Label Text="10. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace with the correct answer" />
+            </StackLayout>
 
             <!-- Question 11 -->
-            <Label Text="11. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q11" Content="A. Replace with the correct answer" />
-            <RadioButton GroupName="q11" Content="B. Replace" />
-            <RadioButton GroupName="q11" Content="C. Replace" />
-            <RadioButton GroupName="q11" Content="D. Replace" />
+            <StackLayout x:Name="q11">
+                <Label Text="11. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace with the correct answer" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 12 -->
-            <Label Text="12. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q12" Content="A. Replace" />
-            <RadioButton GroupName="q12" Content="B. Replace" />
-            <RadioButton GroupName="q12" Content="C. Replace with the correct answer" />
-            <RadioButton GroupName="q12" Content="D. Replace" />
+            <StackLayout x:Name="q12">
+                <Label Text="12. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace with the correct answer" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 13 -->
-            <Label Text="13. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q13" Content="A. Replace" />
-            <RadioButton GroupName="q13" Content="B. Replace with the correct answer" />
-            <RadioButton GroupName="q13" Content="C. Replace" />
-            <RadioButton GroupName="q13" Content="D. Replace" />
+            <StackLayout x:Name="q13">
+                <Label Text="13. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace with the correct answer" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 14 -->
-            <Label Text="14. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q14" Content="A. Replace with the correct answer" />
-            <RadioButton GroupName="q14" Content="B. Replace" />
-            <RadioButton GroupName="q14" Content="C. Replace" />
-            <RadioButton GroupName="q14" Content="D. Replace" />
+            <StackLayout x:Name="q14">
+                <Label Text="14. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace with the correct answer" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 15 -->
-            <Label Text="15. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q15" Content="A. Replace" />
-            <RadioButton GroupName="q15" Content="B. Replace" />
-            <RadioButton GroupName="q15" Content="C. Replace" />
-            <RadioButton GroupName="q15" Content="D. Replace with the correct answer" />
+            <StackLayout x:Name="q15">
+                <Label Text="15. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace with the correct answer" />
+            </StackLayout>
 
             <!-- Question 16 -->
-            <Label Text="16. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q16" Content="A. Replace with the correct answer" />
-            <RadioButton GroupName="q16" Content="B. Replace" />
-            <RadioButton GroupName="q16" Content="C. Replace" />
-            <RadioButton GroupName="q16" Content="D. Replace" />
+            <StackLayout x:Name="q16">
+                <Label Text="16. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace with the correct answer" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 17 -->
-            <Label Text="17. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q17" Content="A. Replace" />
-            <RadioButton GroupName="q17" Content="B. Replace" />
-            <RadioButton GroupName="q17" Content="C. Replace" />
-            <RadioButton GroupName="q17" Content="D. Replace with the correct answer" />
+            <StackLayout x:Name="q17">
+                <Label Text="17. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace with the correct answer" />
+            </StackLayout>
 
             <!-- Question 18 -->
-            <Label Text="18. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q18" Content="A. Replace with the correct answer" />
-            <RadioButton GroupName="q18" Content="B. Replace" />
-            <RadioButton GroupName="q18" Content="C. Replace" />
-            <RadioButton GroupName="q18" Content="D. Replace" />
+            <StackLayout x:Name="q18">
+                <Label Text="18. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace with the correct answer" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 19 -->
-            <Label Text="19. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q19" Content="A. Replace" />
-            <RadioButton GroupName="q19" Content="B. Replace with the correct answer" />
-            <RadioButton GroupName="q19" Content="C. Replace" />
-            <RadioButton GroupName="q19" Content="D. Replace" />
+            <StackLayout x:Name="q19">
+                <Label Text="19. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace" />
+                <RadioButton Content="B. Replace with the correct answer" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
 
             <!-- Question 20 -->
-            <Label Text="20. Replace this" FontAttributes="Bold" />
-            <RadioButton GroupName="q20" Content="A. Replace with the correct answer" />
-            <RadioButton GroupName="q20" Content="B. Replace" />
-            <RadioButton GroupName="q20" Content="C. Replace" />
-            <RadioButton GroupName="q20" Content="D. Replace" />
+            <StackLayout x:Name="q20">
+                <Label Text="20. Replace this" FontAttributes="Bold" />
+                <RadioButton Content="A. Replace with the correct answer" />
+                <RadioButton Content="B. Replace" />
+                <RadioButton Content="C. Replace" />
+                <RadioButton Content="D. Replace" />
+            </StackLayout>
+
+            <Button 
+            Text="Submit"
+            BackgroundColor="Blue"
+            TextColor="White"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            VerticalOptions="End"
+            Margin="10"
+            Clicked="OnSubmitClicked" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
