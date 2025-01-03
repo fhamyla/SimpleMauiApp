@@ -2,72 +2,74 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SimpleMauiApp.GettingStarted">
-    <VerticalStackLayout>
-        <!-- Introduction to Operating Systems -->
-        <Label 
-            Text="Getting Started with Operating Systems"
-            FontSize="24"
-            FontAttributes="Bold"
-            HorizontalOptions="Center"
-            Margin="10" />
+    <ScrollView>
+        <VerticalStackLayout>
+            <!-- Introduction to Operating Systems -->
+            <Label 
+                Text="Getting Started with Operating Systems"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Margin="10" />
 
-        <Label 
-            Text="An Operating System (OS) is the software that manages hardware and software resources on a computer. It provides a user interface and allows you to run applications effectively. Examples include Windows, macOS, Linux, Android, and iOS."
-            FontSize="16"
-            Margin="10" 
-            HorizontalTextAlignment="Center" />
+            <Label 
+                Text="An Operating System (OS) is the software that manages hardware and software resources on a computer. It provides a user interface and allows you to run applications effectively. Examples include Windows, macOS, Linux, Android, and iOS."
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Center" />
 
-        <Label 
-            Text="Core Functions of an Operating System:"
-            FontSize="18"
-            FontAttributes="Bold"
-            Margin="10" />
+            <Label 
+                Text="Core Functions of an Operating System:"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
 
-        <Label 
-            Text="1. Process Management"
-            FontSize="16"
-            Margin="10" 
-            HorizontalTextAlignment="Start" />
+            <Label 
+                Text="1. Process Management"
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Start" />
 
-        <Label 
-            Text="2. Memory Management"
-            FontSize="16"
-            Margin="10" 
-            HorizontalTextAlignment="Start" />
+            <Label 
+                Text="2. Memory Management"
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Start" />
 
-        <Label 
-            Text="3. File System Management"
-            FontSize="16"
-            Margin="10" 
-            HorizontalTextAlignment="Start" />
+            <Label 
+                Text="3. File System Management"
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Start" />
 
-        <Label 
-            Text="4. Device Management"
-            FontSize="16"
-            Margin="10" 
-            HorizontalTextAlignment="Start" />
+            <Label 
+                Text="4. Device Management"
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Start" />
 
-        <Label 
-            Text="5. Security and Access Control"
-            FontSize="16"
-            Margin="10" 
-            HorizontalTextAlignment="Start" />
+            <Label 
+                Text="5. Security and Access Control"
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Start" />
 
-        <Label 
-            Text="Getting started with Operating Systems involves understanding these core functions and exploring how they interact with hardware and applications."
-            FontSize="16"
-            Margin="10" 
-            HorizontalTextAlignment="Center" />
+            <Label 
+                Text="Getting started with Operating Systems involves understanding these core functions and exploring how they interact with hardware and applications."
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Center" />
 
-        <!-- Next Button -->
-        <Button
-            Text="Learn More"
-            BackgroundColor="Blue"
-            TextColor="White"
-            FontAttributes="Bold"
-            HorizontalOptions="Center"
-            VerticalOptions="End"
-            Margin="10"
-            Clicked="NextClicked" />
-    </VerticalStackLayout>
+            <!-- Next Button -->
+            <Button
+                Text="Learn More"
+                BackgroundColor="Blue"
+                TextColor="White"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="10"
+                Clicked="NextClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
