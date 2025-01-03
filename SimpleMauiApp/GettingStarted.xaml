@@ -4,7 +4,6 @@
              x:Class="SimpleMauiApp.GettingStarted">
     <ScrollView>
         <VerticalStackLayout>
-            <!-- Introduction to Operating Systems -->
             <Label 
                 Text="Getting Started with Operating Systems"
                 FontSize="24"
@@ -60,7 +59,6 @@
                 Margin="10" 
                 HorizontalTextAlignment="Center" />
 
-            <!-- Next Button -->
             <Button
                 Text="Learn More"
                 BackgroundColor="Blue"
