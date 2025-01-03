@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="SimpleMauiApp.MainPage"
-             BackgroundColor="#1E3C56">
+             BackgroundColor="White">
 
     <VerticalStackLayout Spacing="20" Padding="30" HorizontalOptions="Center" VerticalOptions="Center">
 
@@ -10,25 +10,27 @@
         <Label Text="Hey!" 
            FontSize="36"
            HorizontalOptions="Center"
-           TextColor="White" />
+           TextColor="Black" />
 
         <Label Text="I'm going to be your personal companion through all courses, what do I call you?" 
            FontSize="18"
            HorizontalOptions="Center"
-           TextColor="White"
+           TextColor="Black"
            HorizontalTextAlignment="Center" />
 
         <!-- Nickname Entry Field -->
         <Entry Placeholder="Choose a nickname..." 
            x:Name="NicknameEntry"
            FontSize="18"
+           TextColor="Black"
+           PlaceholderColor="Gray"
            WidthRequest="300"
            HorizontalOptions="Center" />
 
         <!-- Confirm Button -->
         <Button Text="✔️" 
             FontSize="24"
-            BackgroundColor="White"
+            BackgroundColor="Black"
             TextColor="Blue"
             CornerRadius="30"
             WidthRequest="60"
