@@ -57,6 +57,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\computer.png" />
+	  <None Remove="Resources\Images\energysystem.png" />
+	  <None Remove="Resources\Images\exam.png" />
+	  <None Remove="Resources\Images\gear.png" />
+	  <None Remove="Resources\Images\integration.png" />
+	  <None Remove="Resources\Images\monitoringsystem.png" />
+	  <None Remove="Resources\Images\operatingsystem.png" />
+	  <None Remove="Resources\Images\settings.png" />
+	  <None Remove="Resources\Images\systemintegration.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />

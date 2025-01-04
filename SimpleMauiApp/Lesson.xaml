@@ -31,7 +31,7 @@
                 </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
-                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Image Source="settings.png" HeightRequest="80" WidthRequest="80" />
                     <Label Text="Getting Started" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
@@ -52,7 +52,7 @@
                 </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
-                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Image Source="systemintegration.png" HeightRequest="80" WidthRequest="80" />
                     <Label Text="Types of OS" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
@@ -73,7 +73,7 @@
                 </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
-                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Image Source="energysystem.png" HeightRequest="80" WidthRequest="80" />
                     <Label Text="Types of OS - Detailed" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
@@ -94,7 +94,7 @@
                 </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
-                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Image Source="gear.png" HeightRequest="80" WidthRequest="80" />
                     <Label Text="Key Components" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
@@ -115,7 +115,7 @@
                 </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
-                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Image Source="computer.png" HeightRequest="80" WidthRequest="80" />
                     <Label Text="Functions" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
@@ -136,8 +136,8 @@
                 </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
-                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
-                    <Label Text="Categories of OSs" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                    <Image Source="monitoringsystem.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Categories of OS" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
 
@@ -157,8 +157,8 @@
                 </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
-                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
-                    <Label Text="Evolution of OSs" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                    <Image Source="operatingsystem.png" HeightRequest="80" WidthRequest="80" />
+                    <Label Text="Evolution of OS" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
 
@@ -178,7 +178,7 @@
                 </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
-                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Image Source="integration.png" HeightRequest="80" WidthRequest="80" />
                     <Label Text="Future" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
@@ -196,7 +196,7 @@
                 </Frame.GestureRecognizers>
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
-                    <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
+                    <Image Source="exam.png" HeightRequest="80" WidthRequest="80" />
                     <Label Text="Test" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
