@@ -2,20 +2,125 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SimpleMauiApp._3section">
-    <VerticalStackLayout>
-        <!-- Replace this with the right content -->
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        <Button
-            Text="Next"
-            BackgroundColor="Blue"
-            TextColor="White"
-            FontAttributes="Bold"
-            HorizontalOptions="Center"
-            VerticalOptions="End"
-            Margin="10"
-            Clicked="NextClicked" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
+            <!-- Chapter Title -->
+            <Label 
+                Text="Types of Operating Systems - Detailed View"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Margin="10" />
+
+            <!-- Introduction -->
+            <Label 
+                Text="Operating Systems serve as the backbone of computing devices. Here’s a detailed exploration of the various types and their applications:"
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Center" />
+
+            <!-- Batch Operating System -->
+            <Label 
+                Text="1. Batch Operating System"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="In a Batch OS, similar jobs are grouped together in batches and executed sequentially. These systems were commonly used in early mainframe computers. Users submit jobs, and the system executes them without direct user interaction."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: IBM’s early batch processing systems."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Time-Sharing Operating System -->
+            <Label 
+                Text="2. Time-Sharing Operating System"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="Time-sharing systems allow multiple users to share system resources simultaneously. The CPU's time is divided among users, giving the illusion of direct interaction with the machine."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: UNIX systems in the 1970s."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Distributed Operating System -->
+            <Label 
+                Text="3. Distributed Operating System"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="A Distributed OS manages a collection of independent computers and makes them appear as a single system to users. This type of OS is designed for systems that work collaboratively over a network."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: Google’s distributed systems for cloud computing."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Real-Time Operating System -->
+            <Label 
+                Text="4. Real-Time Operating System (RTOS)"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="RTOS is used in applications requiring immediate responses, such as embedded systems, medical equipment, and automotive systems. These systems prioritize tasks to ensure timely execution."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: VxWorks used in aerospace and defense."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Mobile Operating System -->
+            <Label 
+                Text="5. Mobile Operating System"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="Mobile OSs are optimized for touch-screen devices and power efficiency. They enable mobile devices to run apps, connect to the internet, and interact with hardware like cameras and GPS."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Examples: Android, iOS."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Summary -->
+            <Label 
+                Text="Understanding the different types of Operating Systems and their use cases provides a solid foundation for exploring more advanced topics like OS architecture, kernel design, and virtualization."
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Center" />
+
+            <!-- Next Button -->
+            <Button
+                Text="Next Chapter"
+                BackgroundColor="Blue"
+                TextColor="White"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="10"
+                Clicked="NextClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

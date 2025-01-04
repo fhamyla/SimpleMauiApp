@@ -53,7 +53,7 @@
                 HorizontalTextAlignment="Center" />
 
             <Button
-                Text="Next"
+                Text="Continue"
                 BackgroundColor="Green"
                 TextColor="White"
                 FontAttributes="Bold"
