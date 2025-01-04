@@ -5,53 +5,43 @@
     <ScrollView>
         <VerticalStackLayout>
             <Label 
-                Text="Types of Operating Systems"
+                Text="History of Operating Systems"
                 FontSize="24"
                 FontAttributes="Bold"
                 HorizontalOptions="Center"
                 Margin="10" />
-
             <Label 
-                Text="Operating Systems come in various types, each tailored for specific use cases and environments. Here are the main types:"
+                Text="Operating systems have evolved significantly since the advent of computing. The journey began in the 1940s with the introduction of early computers that did not have an operating system. Programs were loaded manually using switches or punched cards, and these machines could perform only one task at a time."
                 FontSize="16"
-                HorizontalTextAlignment="Center" />
-
+                Margin="10" />
             <Label 
-                Text="1. Batch Operating System: Processes jobs in batches without user interaction."
+                Text="In the 1950s, the first generation of operating systems emerged with batch processing systems. These systems allowed multiple jobs to be executed sequentially without manual intervention. IBM's General Motors Operating System (GMOS) for the IBM 701 is often cited as one of the earliest operating systems.\"
                 FontSize="16"
-                Margin="10"
-                HorizontalTextAlignment="Start" />
-
+                Margin="10" />
             <Label 
-                Text="2. Time-Sharing Operating System: Enables multiple users to use a computer simultaneously."
+                Text="The 1960s marked a significant milestone with the introduction of time-sharing systems. This era saw the development of the Compatible Time-Sharing System (CTSS) at MIT and MULTICS, which introduced concepts such as hierarchical file systems and multi-user capabilities. MULTICS influenced many future operating systems, including UNIX."
                 FontSize="16"
-                Margin="10"
-                HorizontalTextAlignment="Start" />
-
+                Margin="10" />
             <Label 
-                Text="3. Distributed Operating System: Coordinates a group of networked computers to appear as a single system."
+                Text="UNIX, developed in the late 1960s and early 1970s by Ken Thompson, Dennis Ritchie, and others at Bell Labs, became a cornerstone in operating system history. Its design emphasized simplicity, portability, and powerful tools for developers. UNIX laid the foundation for modern operating systems, including Linux and macOS."
                 FontSize="16"
-                Margin="10"
-                HorizontalTextAlignment="Start" />
-
+                Margin="10" />
             <Label 
-                Text="4. Real-Time Operating System (RTOS): Processes data and tasks in real time, ideal for embedded systems."
+                Text="The 1980s brought the personal computing revolution and the rise of operating systems like MS-DOS and early versions of Windows. These operating systems made computing accessible to a broader audience. Meanwhile, the introduction of Apple’s macOS in 1984 with the Macintosh introduced graphical user interfaces to the mainstream."
                 FontSize="16"
-                Margin="10"
-                HorizontalTextAlignment="Start" />
-
+                Margin="10" />
             <Label 
-                Text="5. Mobile Operating System: Designed for smartphones and tablets, such as Android and iOS."
+                Text="In the 1990s, Linux emerged as a free and open-source alternative to proprietary operating systems. Created by Linus Torvalds, Linux became the foundation for countless distributions and is widely used in servers, embedded systems, and even desktops today."
                 FontSize="16"
-                Margin="10"
-                HorizontalTextAlignment="Start" />
-
+                Margin="10" />
             <Label 
-                Text="Understanding these types will help you choose the right OS for your needs and applications."
+                Text="The 21st century has seen the evolution of operating systems with advancements in mobility, cloud computing, and security. Operating systems like Android and iOS dominate the mobile landscape, while modern versions of Windows, macOS, and Linux continue to evolve. Virtualization, containerization, and cloud-native operating systems like Kubernetes have also reshaped the way applications are deployed and managed."
                 FontSize="16"
-                Margin="10"
-                HorizontalTextAlignment="Center" />
-
+                Margin="10" />
+            <Label 
+                Text="Operating systems today are integral to computing, enabling users and developers to interact seamlessly with hardware while providing robust security, performance, and reliability. As technology continues to evolve, operating systems will remain at the heart of innovation."
+                FontSize="16"
+                Margin="10" />
             <Button
                 Text="Continue"
                 BackgroundColor="Blue"

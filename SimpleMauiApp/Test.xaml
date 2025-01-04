@@ -14,83 +14,83 @@
 
             <!-- Question 1 -->
             <StackLayout x:Name="q1">
-                <Label Text="1. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace with the correct answer" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="1. It serve as the backbone of computing devices" FontAttributes="Bold" />
+                <RadioButton Content="A. CPU" />
+                <RadioButton Content="B. Operating Systems" />
+                <RadioButton Content="C. Artificial Intelligence (AI)" />
+                <RadioButton Content="D. Computer" />
             </StackLayout>
 
             <!-- Question 2 -->
             <StackLayout x:Name="q2">
-                <Label Text="2. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace with the correct answer" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="2. It is the core of an Operating Systems" FontAttributes="Bold" />
+                <RadioButton Content="A. Kernel" />
+                <RadioButton Content="B. Corn" />
+                <RadioButton Content="C. Linux" />
+                <RadioButton Content="D. IOS" />
             </StackLayout>
 
             <!-- Question 3 -->
             <StackLayout x:Name="q3">
-                <Label Text="3. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace with the correct answer" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="3. RTOS is used in applications requiring immediate responses, such as embedded systems, medical equipment, and __________________." FontAttributes="Bold" />
+                <RadioButton Content="A. Automation" />
+                <RadioButton Content="B. Kernel" />
+                <RadioButton Content="C. Automotive systems" />
+                <RadioButton Content="D. Mobile Operating System" />
             </StackLayout>
 
             <!-- Question 4 -->
             <StackLayout x:Name="q4">
-                <Label Text="4. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace with the correct answer" />
+                <Label Text="4. It can be graphical (GUI) like Windows" FontAttributes="Bold" />
+                <RadioButton Content="A. Resource Manager" />
+                <RadioButton Content="B. Process Management" />
+                <RadioButton Content="C. Artificial Intelligence (AI)" />
+                <RadioButton Content="D. User Interface (UI)" />
             </StackLayout>
 
             <!-- Question 5 -->
             <StackLayout x:Name="q5">
-                <Label Text="5. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace with the correct answer" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="5. It ensures resources are allocated effectively among various processes, preventing conflicts and maximizing efficiency." FontAttributes="Bold" />
+                <RadioButton Content="A. Resource Manager" />
+                <RadioButton Content="B. Resource Management" />
+                <RadioButton Content="C. Process Management" />
+                <RadioButton Content="D. Process Manager" />
             </StackLayout>
 
             <!-- Question 6 -->
             <StackLayout x:Name="q6">
-                <Label Text="6. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace with the correct answer" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="6. Memory Management ensures optimal use of the system's ___, keeping track of each byte and allocating memory to processes as needed." FontAttributes="Bold" />
+                <RadioButton Content="A. ROM" />
+                <RadioButton Content="B. RAM" />
+                <RadioButton Content="C. CPU" />
+                <RadioButton Content="D. IOS" />
             </StackLayout>
 
             <!-- Question 7 -->
             <StackLayout x:Name="q7">
-                <Label Text="7. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace with the correct answer" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="7. Example of Real-Time Operating System" FontAttributes="Bold" />
+                <RadioButton Content="A. Android" />
+                <RadioButton Content="B. VxWorks" />
+                <RadioButton Content="C. Windows" />
+                <RadioButton Content="D. Google" />
             </StackLayout>
 
             <!-- Question 8 -->
             <StackLayout x:Name="q8">
-                <Label Text="8. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace with the correct answer" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="8. The following introduces a paradigm shift in processing power" FontAttributes="Bold" />
+                <RadioButton Content="A. Quantum computing" />
+                <RadioButton Content="B. Artificial Intelligence (AI)" />
+                <RadioButton Content="C. Operating Systems" />
+                <RadioButton Content="D. Kernel" />
             </StackLayout>
 
             <!-- Question 9 -->
             <StackLayout x:Name="q9">
-                <Label Text="9. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace" />
+                <Label Text="9. The following is set to revolutionize OS functionality." FontAttributes="Bold" />
+                <RadioButton Content="A. IOS" />
+                <RadioButton Content="B. Quantum computing" />
                 <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace with the correct answer" />
+                <RadioButton Content="D. Artificial Intelligence (AI)" />
             </StackLayout>
 
             <!-- Question 10 -->
@@ -104,92 +104,92 @@
 
             <!-- Question 11 -->
             <StackLayout x:Name="q11">
-                <Label Text="11. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace with the correct answer" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="11. Which of the following is not an example of Operating Systems" FontAttributes="Bold" />
+                <RadioButton Content="A. Widows" />
+                <RadioButton Content="B. BharOS" />
+                <RadioButton Content="C. macOS" />
+                <RadioButton Content="D. iPadOS" />
             </StackLayout>
 
             <!-- Question 12 -->
             <StackLayout x:Name="q12">
-                <Label Text="12. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace with the correct answer" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="12. Which of the following is not an example of Mobile Operating Systems" FontAttributes="Bold" />
+                <RadioButton Content="A. CalyxOS" />
+                <RadioButton Content="B. IOS" />
+                <RadioButton Content="C. BiOS" />
+                <RadioButton Content="D. FuntouchOS" />
             </StackLayout>
 
             <!-- Question 13 -->
             <StackLayout x:Name="q13">
-                <Label Text="13. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace with the correct answer" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="13. Which of the following is not an example of Mobile Operating Systems" FontAttributes="Bold" />
+                <RadioButton Content="A. macOS" />
+                <RadioButton Content="B. QuiaOS" />
+                <RadioButton Content="C. Linux" />
+                <RadioButton Content="D. Windows" />
             </StackLayout>
 
             <!-- Question 14 -->
             <StackLayout x:Name="q14">
-                <Label Text="14. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace with the correct answer" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="14. Designed for one user at a time, managing resources and applications for that individual" FontAttributes="Bold" />
+                <RadioButton Content="A. Single-User OS" />
+                <RadioButton Content="B. Multi-User OS" />
+                <RadioButton Content="C. Real-Time Operating System (RTOS)" />
+                <RadioButton Content="D. Distributed OS" />
             </StackLayout>
 
             <!-- Question 15 -->
             <StackLayout x:Name="q15">
-                <Label Text="15. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace with the correct answer" />
+                <Label Text="15. The OS organizes, stores, retrieves, and manages data on storage devices." FontAttributes="Bold" />
+                <RadioButton Content="A. Memory Management" />
+                <RadioButton Content="B. Process Management" />
+                <RadioButton Content="C. Resource Management" />
+                <RadioButton Content="D. File System Management" />
             </StackLayout>
 
             <!-- Question 16 -->
             <StackLayout x:Name="q16">
-                <Label Text="16. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace with the correct answer" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="16. The first generation of operating systems emerged with batch processing systems." FontAttributes="Bold" />
+                <RadioButton Content="A. 1950s" />
+                <RadioButton Content="B. 1900s" />
+                <RadioButton Content="C. 1960s" />
+                <RadioButton Content="D. 1980s" />
             </StackLayout>
 
             <!-- Question 17 -->
             <StackLayout x:Name="q17">
-                <Label Text="17. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace with the correct answer" />
+                <Label Text="17. Developed in the late 1960s and early 1970s by Ken Thompson, Dennis Ritchie, and others at Bell Labs" FontAttributes="Bold" />
+                <RadioButton Content="A. IOS" />
+                <RadioButton Content="B. CPU" />
+                <RadioButton Content="C. GUI" />
+                <RadioButton Content="D. UNIX" />
             </StackLayout>
 
             <!-- Question 18 -->
             <StackLayout x:Name="q18">
-                <Label Text="18. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace with the correct answer" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="18. The CPU's time is divided among _____, giving the illusion of direct interaction with the machine." FontAttributes="Bold" />
+                <RadioButton Content="A. users" />
+                <RadioButton Content="B. devices" />
+                <RadioButton Content="C. core" />
+                <RadioButton Content="D. graph" />
             </StackLayout>
 
             <!-- Question 19 -->
             <StackLayout x:Name="q19">
-                <Label Text="19. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace with the correct answer" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="19. Example of File System" FontAttributes="Bold" />
+                <RadioButton Content="A. exit4" />
+                <RadioButton Content="B. NTFS" />
+                <RadioButton Content="C. Manual" />
+                <RadioButton Content="D. Varitas" />
             </StackLayout>
 
             <!-- Question 20 -->
             <StackLayout x:Name="q20">
-                <Label Text="20. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace with the correct answer" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace" />
+                <Label Text="20. It prevents unauthorized access and safeguards sensitive data." FontAttributes="Bold" />
+                <RadioButton Content="A. Security and Access Control" />
+                <RadioButton Content="B. Cybersecurity" />
+                <RadioButton Content="C. Ethical hackers" />
+                <RadioButton Content="D. Practice of protecting systems" />
             </StackLayout>
 
             <Button 
