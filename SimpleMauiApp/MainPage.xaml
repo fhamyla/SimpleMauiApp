@@ -30,7 +30,7 @@
         <!-- Confirm Button -->
         <Button Text="✔️" 
             FontSize="24"
-            BackgroundColor="Black"
+            BackgroundColor="Blue"
             TextColor="Blue"
             CornerRadius="30"
             WidthRequest="60"

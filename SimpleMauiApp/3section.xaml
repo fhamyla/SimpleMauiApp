@@ -113,7 +113,7 @@
 
             <!-- Next Button -->
             <Button
-                Text="Next Chapter"
+                Text="Continue"
                 BackgroundColor="Blue"
                 TextColor="White"
                 FontAttributes="Bold"

@@ -54,7 +54,7 @@
 
             <Button
                 Text="Continue"
-                BackgroundColor="Green"
+                BackgroundColor="Blue"
                 TextColor="White"
                 FontAttributes="Bold"
                 HorizontalOptions="Center"

@@ -4,20 +4,157 @@
              x:Class="SimpleMauiApp._4section">
     <ScrollView>
         <VerticalStackLayout>
-            <!-- Replace this with the right content -->
+            <!-- Chapter Title -->
             <Label 
-                Text="Welcome to .NET MAUI!"
-                VerticalOptions="Center" 
-        HorizontalOptions="Center" />
+                Text="Key Components of an Operating System"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Margin="10" />
+
+            <!-- Introduction -->
+            <Label 
+                Text="An Operating System consists of several key components that work together to manage hardware and software resources. Here’s an overview of these components:"
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Center" />
+
+            <!-- Kernel -->
+            <Label 
+                Text="1. Kernel"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="The kernel is the core of an OS, responsible for managing system resources, including CPU, memory, and devices. It operates at a low level and facilitates communication between hardware and software."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: Linux Kernel in UNIX-based systems."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- User Interface -->
+            <Label 
+                Text="2. User Interface (UI)"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="The User Interface allows users to interact with the system. It can be graphical (GUI) like Windows or command-line (CLI) like Linux terminals."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: Windows GUI, Linux Command Line."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- File System -->
+            <Label 
+                Text="3. File System"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="The file system manages data storage and retrieval, organizing files in a structured hierarchy. It provides methods for accessing, modifying, and managing files and directories."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: NTFS for Windows, ext4 for Linux."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Process Management -->
+            <Label 
+                Text="4. Process Management"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="This component handles the creation, scheduling, and termination of processes. It ensures efficient use of the CPU and coordinates between active processes."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: Multi-threading support in modern OSs."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Memory Management -->
+            <Label 
+                Text="5. Memory Management"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="Memory Management ensures optimal use of the system's RAM, keeping track of each byte and allocating memory to processes as needed."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: Virtual memory in Windows and Linux."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Device Management -->
+            <Label 
+                Text="6. Device Management"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="This component manages input/output devices, such as keyboards, printers, and hard drives. It ensures smooth communication between devices and applications."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: Plug-and-play support in Windows."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Security -->
+            <Label 
+                Text="7. Security and Access Control"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="Security components protect data and system resources from unauthorized access. They implement authentication, encryption, and permission management."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: User account control in macOS and Windows."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Summary -->
+            <Label 
+                Text="Each of these components plays a crucial role in the functioning of an Operating System, ensuring efficient and secure operation."
+                FontSize="16"
+                Margin="10" 
+                HorizontalTextAlignment="Center" />
+
+            <!-- Next Button -->
             <Button
-        Text="Next"
-        BackgroundColor="Blue"
-        TextColor="White"
-        FontAttributes="Bold"
-        HorizontalOptions="Center"
-        VerticalOptions="End"
-        Margin="10"
-        Clicked="NextClicked" />
+                Text="Continue"
+                BackgroundColor="Blue"
+                TextColor="White"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="10"
+                Clicked="NextClicked" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
