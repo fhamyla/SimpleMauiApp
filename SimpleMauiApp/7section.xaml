@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SimpleMauiApp._7section">
+    <ScrollView>
     <VerticalStackLayout>
         <!-- Replace this with the right content -->
         <Label 
@@ -18,4 +19,5 @@
             Margin="10"
             Clicked="NextClicked" />
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
