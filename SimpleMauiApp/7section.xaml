@@ -3,21 +3,124 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SimpleMauiApp._7section">
     <ScrollView>
-    <VerticalStackLayout>
-        <!-- Replace this with the right content -->
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        <Button
-            Text="Next"
-            BackgroundColor="Blue"
-            TextColor="White"
-            FontAttributes="Bold"
-            HorizontalOptions="Center"
-            VerticalOptions="End"
-            Margin="10"
-            Clicked="NextClicked" />
-    </VerticalStackLayout>
+        <VerticalStackLayout>
+            <!-- Chapter Title -->
+            <Label 
+                Text="The Evolution of Operating Systems"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Margin="10" />
+
+            <!-- Introduction -->
+            <Label 
+                Text="Operating Systems have undergone significant transformation since their inception. This chapter explores their journey, from early single-tasking systems to the sophisticated multi-user and distributed systems of today."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Center" />
+
+            <!-- 1st Generation -->
+            <Label 
+                Text="1. First Generation (1940s-1950s): Manual Systems"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="Early computers lacked an OS. Programs were manually loaded using punch cards or paper tape. Each task required complete control of the hardware, making operation cumbersome."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: ENIAC (Electronic Numerical Integrator and Computer)."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- 2nd Generation -->
+            <Label 
+                Text="2. Second Generation (1950s-1960s): Batch Processing Systems"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="Batch processing introduced the concept of executing a series of jobs without user interaction. Programs were submitted as 'batches,' improving efficiency."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: IBM 704, General Motors' GM-NAA I/O OS."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- 3rd Generation -->
+            <Label 
+                Text="3. Third Generation (1960s-1970s): Multiprogramming and Time-Sharing"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="Multiprogramming allowed multiple programs to share the CPU, enhancing utilization. Time-sharing systems enabled interactive user sessions."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: UNIX, IBM's OS/360."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- 4th Generation -->
+            <Label 
+                Text="4. Fourth Generation (1980s-Present): Personal Computers"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="The advent of personal computers popularized OSs like MS-DOS, Windows, and macOS. Graphical User Interfaces (GUIs) became mainstream, making computers more accessible."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: Windows 95, macOS."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- 5th Generation -->
+            <Label 
+                Text="5. Fifth Generation (2000s-Present): Mobile and Cloud Systems"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="10" />
+            <Label 
+                Text="Modern OSs power mobile devices, cloud platforms, and IoT. These systems emphasize connectivity, real-time performance, and seamless user experiences."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+            <Label 
+                Text="Example: Android, iOS, Linux-based cloud systems."
+                FontSize="14"
+                Margin="10"
+                HorizontalTextAlignment="Start" />
+
+            <!-- Summary -->
+            <Label 
+                Text="The evolution of Operating Systems showcases humanity's ingenuity in meeting the growing demands of technology. From manual systems to cloud-driven platforms, OSs continue to shape the digital world."
+                FontSize="16"
+                Margin="10"
+                HorizontalTextAlignment="Center" />
+
+            <!-- Next Button -->
+            <Button
+                Text="Continue"
+                BackgroundColor="Blue"
+                TextColor="White"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="10"
+                Clicked="NextClicked" />
+        </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
