@@ -14,7 +14,7 @@
 
             <!-- Question 1 -->
             <StackLayout x:Name="q1">
-                <Label Text="1. It serve as the backbone of computing devices" FontAttributes="Bold" />
+                <Label Text="1. It serve as the backbone of computing devices." FontAttributes="Bold" />
                 <RadioButton Content="A. CPU" />
                 <RadioButton Content="B. Operating Systems" />
                 <RadioButton Content="C. Artificial Intelligence (AI)" />
@@ -23,11 +23,11 @@
 
             <!-- Question 2 -->
             <StackLayout x:Name="q2">
-                <Label Text="2. It is the core of an Operating Systems" FontAttributes="Bold" />
+                <Label Text="2. It is the core of an Operating Systems." FontAttributes="Bold" />
                 <RadioButton Content="A. Kernel" />
                 <RadioButton Content="B. Corn" />
                 <RadioButton Content="C. Linux" />
-                <RadioButton Content="D. IOS" />
+                <RadioButton Content="D. iOS" />
             </StackLayout>
 
             <!-- Question 3 -->
@@ -41,7 +41,7 @@
 
             <!-- Question 4 -->
             <StackLayout x:Name="q4">
-                <Label Text="4. It can be graphical (GUI) like Windows" FontAttributes="Bold" />
+                <Label Text="4. It can be graphical (GUI) like Windows." FontAttributes="Bold" />
                 <RadioButton Content="A. Resource Manager" />
                 <RadioButton Content="B. Process Management" />
                 <RadioButton Content="C. Artificial Intelligence (AI)" />
@@ -63,12 +63,12 @@
                 <RadioButton Content="A. ROM" />
                 <RadioButton Content="B. RAM" />
                 <RadioButton Content="C. CPU" />
-                <RadioButton Content="D. IOS" />
+                <RadioButton Content="D. iOS" />
             </StackLayout>
 
             <!-- Question 7 -->
             <StackLayout x:Name="q7">
-                <Label Text="7. Example of Real-Time Operating System" FontAttributes="Bold" />
+                <Label Text="7. Example of Real-Time Operating System." FontAttributes="Bold" />
                 <RadioButton Content="A. Android" />
                 <RadioButton Content="B. VxWorks" />
                 <RadioButton Content="C. Windows" />
@@ -77,7 +77,7 @@
 
             <!-- Question 8 -->
             <StackLayout x:Name="q8">
-                <Label Text="8. The following introduces a paradigm shift in processing power" FontAttributes="Bold" />
+                <Label Text="8. The following introduces a paradigm shift in processing power." FontAttributes="Bold" />
                 <RadioButton Content="A. Quantum computing" />
                 <RadioButton Content="B. Artificial Intelligence (AI)" />
                 <RadioButton Content="C. Operating Systems" />
@@ -87,24 +87,24 @@
             <!-- Question 9 -->
             <StackLayout x:Name="q9">
                 <Label Text="9. The following is set to revolutionize OS functionality." FontAttributes="Bold" />
-                <RadioButton Content="A. IOS" />
+                <RadioButton Content="A. iOS" />
                 <RadioButton Content="B. Quantum computing" />
-                <RadioButton Content="C. Replace" />
+                <RadioButton Content="C. CalyxOS" />
                 <RadioButton Content="D. Artificial Intelligence (AI)" />
             </StackLayout>
 
             <!-- Question 10 -->
             <StackLayout x:Name="q10">
-                <Label Text="10. Replace this" FontAttributes="Bold" />
-                <RadioButton Content="A. Replace" />
-                <RadioButton Content="B. Replace" />
-                <RadioButton Content="C. Replace" />
-                <RadioButton Content="D. Replace with the correct answer" />
+                <Label Text="10. Created by Linus Torvalds." FontAttributes="Bold" />
+                <RadioButton Content="A. Android" />
+                <RadioButton Content="B. iOS" />
+                <RadioButton Content="C. Windows" />
+                <RadioButton Content="D. Linux" />
             </StackLayout>
 
             <!-- Question 11 -->
             <StackLayout x:Name="q11">
-                <Label Text="11. Which of the following is not an example of Operating Systems" FontAttributes="Bold" />
+                <Label Text="11. Which of the following is not an example of Operating Systems." FontAttributes="Bold" />
                 <RadioButton Content="A. Widows" />
                 <RadioButton Content="B. BharOS" />
                 <RadioButton Content="C. macOS" />
@@ -113,16 +113,16 @@
 
             <!-- Question 12 -->
             <StackLayout x:Name="q12">
-                <Label Text="12. Which of the following is not an example of Mobile Operating Systems" FontAttributes="Bold" />
+                <Label Text="12. Which of the following is not an example of Mobile Operating Systems." FontAttributes="Bold" />
                 <RadioButton Content="A. CalyxOS" />
-                <RadioButton Content="B. IOS" />
+                <RadioButton Content="B. iOS" />
                 <RadioButton Content="C. BiOS" />
                 <RadioButton Content="D. FuntouchOS" />
             </StackLayout>
 
             <!-- Question 13 -->
             <StackLayout x:Name="q13">
-                <Label Text="13. Which of the following is not an example of Mobile Operating Systems" FontAttributes="Bold" />
+                <Label Text="13. Which of the following is not an example of Dekstop Operating Systems." FontAttributes="Bold" />
                 <RadioButton Content="A. macOS" />
                 <RadioButton Content="B. QuiaOS" />
                 <RadioButton Content="C. Linux" />
@@ -131,7 +131,7 @@
 
             <!-- Question 14 -->
             <StackLayout x:Name="q14">
-                <Label Text="14. Designed for one user at a time, managing resources and applications for that individual" FontAttributes="Bold" />
+                <Label Text="14. Designed for one user at a time, managing resources and applications for that individual." FontAttributes="Bold" />
                 <RadioButton Content="A. Single-User OS" />
                 <RadioButton Content="B. Multi-User OS" />
                 <RadioButton Content="C. Real-Time Operating System (RTOS)" />
@@ -158,8 +158,8 @@
 
             <!-- Question 17 -->
             <StackLayout x:Name="q17">
-                <Label Text="17. Developed in the late 1960s and early 1970s by Ken Thompson, Dennis Ritchie, and others at Bell Labs" FontAttributes="Bold" />
-                <RadioButton Content="A. IOS" />
+                <Label Text="17. Developed in the late 1960s and early 1970s by Ken Thompson, Dennis Ritchie, and others at Bell Labs." FontAttributes="Bold" />
+                <RadioButton Content="A. iOS" />
                 <RadioButton Content="B. CPU" />
                 <RadioButton Content="C. GUI" />
                 <RadioButton Content="D. UNIX" />
@@ -176,7 +176,7 @@
 
             <!-- Question 19 -->
             <StackLayout x:Name="q19">
-                <Label Text="19. Example of File System" FontAttributes="Bold" />
+                <Label Text="19. Example of File System." FontAttributes="Bold" />
                 <RadioButton Content="A. exit4" />
                 <RadioButton Content="B. NTFS" />
                 <RadioButton Content="C. Manual" />
