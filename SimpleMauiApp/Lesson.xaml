@@ -179,7 +179,7 @@
                 <!-- Replace the Source attribute of <Image> with the actual paths to the images/icons you want to display. -->
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Image Source="dotnet_bot.png" HeightRequest="80" WidthRequest="80" />
-                    <Label Text="Replace" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+                    <Label Text="Future" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
                 </VerticalStackLayout>
             </Frame>
 
